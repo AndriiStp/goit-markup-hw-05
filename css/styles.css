@@ -645,7 +645,7 @@ display: flex;
 
     transition-property: background-color color box-shadow;
     transition-duration: var(--duration);
-     transition-timing-function: var(--transition-timing);
+    transition-timing-function: var(--transition-timing);
 }
 .project-button:hover,
 .project-button:focus {
@@ -706,7 +706,7 @@ display: flex;
 
     transform: translateY(100%);
 
-    transition-property: transform, opacity;
+    transition-property: transform opacity;
     transition-duration: var(--duration);
     transition-timing-function: var(--transition-timing); 
     
@@ -725,7 +725,7 @@ display: flex;
     opacity: 0;
     transform: translateY(135%);
 
-    transition-property: transform, opacity;
+    transition-property: transform opacity;
     transition-duration: var(--duration);
     transition-timing-function: var(--transition-timing);
 }
@@ -768,8 +768,8 @@ display: flex;
     opacity: 1;
 
     transition-property: opacity;
-        transition-duration: var(--duration);
-        transition-timing-function: var(--transition-timing);
+    transition-duration: var(--duration);
+    transition-timing-function: var(--transition-timing);
 }
 
 .backdrop.is-hidden {
@@ -797,9 +797,9 @@ display: flex;
     border-radius: 4px;
 
     transform: translate(-50%, -50%) scale(1);
-        transition-property: transform;
-        transition-duration: var(--duration);
-        transition-timing-function: var(--transition-timing);
+    transition-property: transform;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--transition-timing);
 }
 
 .close-modal {
